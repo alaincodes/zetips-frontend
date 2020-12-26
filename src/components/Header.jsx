@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import styled from 'styled-components';
 
@@ -9,19 +10,17 @@ const List = styled.ul`
   display: flex;
 `;
 
-function Header() {
+export default function Header() {
   return (
-    <div>
+    <>
       <Nav>
         <List>
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-          <li>Item 4</li>
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#">Item 2</a></li>
+          <li><a href="#">Item 3</a></li>
+          <li><a href="#">Item 4</a></li>
         </List>
       </Nav>
-    </div>
+    </>
   );
 }
-
-export default Header;

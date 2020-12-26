@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Header from './Header';
+import Question from './Question';
 
 const Title = styled.h1`
   font-size: 1.5em;
@@ -35,6 +36,7 @@ function App() {
         <Title>
           fuckoff
         </Title>
+        <Question />
         <Button primary>Push</Button>
         <Button>Push</Button>
         <TomatoButton>Push</TomatoButton>
