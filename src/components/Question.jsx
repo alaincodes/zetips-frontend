@@ -19,7 +19,7 @@ export default function Question() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/questions')
+    fetch('http://localhost:3001/api/questions', { mode: 'cors' })
       .then((res) => res.json())
       .then(
         (result) => {
