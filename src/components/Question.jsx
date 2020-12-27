@@ -19,7 +19,7 @@ export default function Question() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch('https://ghibliapi.herokuapp.com/films')
+    fetch('http://localhost:3001/questions')
       .then((res) => res.json())
       .then(
         (result) => {
@@ -52,7 +52,8 @@ export default function Question() {
               <QuestionText>
                 Q:
                 {' '}
-                {item.title}
+                {item.body}
+                {item.author}
               </QuestionText>
             </li>
           ))}

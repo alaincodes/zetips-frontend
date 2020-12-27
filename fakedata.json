@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "author": "Alain",
+      "title": "2019-05-30T17:30:31.098Z",
+      "body": "Cupcake ipsum dolor. Sit amet dragée. Jelly beans apple pie marshmallow wafer jelly beans soufflé icing bear claw ?",
+      "creation_date": "2019-05-30T17:30:31.098Z",
+      "closed_date": "2019-05-30T17:30:31.098Z"
+    },
+    {
+      "id": 2,
+      "author": "Rag",
+      "title": "2019-05-30T17:30:31.098Z",
+      "body": "Biscuit tootsie roll liquorice tart icing cookie muffin. Marzipan powder caramels apple pie jelly-o bonbon topping ?",
+      "creation_date": "2019-05-30T17:30:31.098Z",
+      "closed_date": "2019-05-30T17:30:31.098Z"
+    },
+    {
+      "id": 3,
+      "author": "Ronaldo",
+      "title": "2019-05-30T17:30:31.098Z",
+      "body": "Fruitcake chocolate bar ice cream danish candy jelly beans apple pie bear claw jelly. Caramels powder cheesecake ?",
+      "creation_date": "2019-05-30T17:30:31.098Z",
+      "closed_date": "2019-05-30T17:30:31.098Z"
+    }
+  ]
+}

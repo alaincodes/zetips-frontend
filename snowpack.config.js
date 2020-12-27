@@ -6,7 +6,6 @@ module.exports = {
     src: '/dist',
   },
   plugins: [
-    '@snowpack/plugin-sass',
     '@snowpack/plugin-react-refresh',
   ],
   install: [
