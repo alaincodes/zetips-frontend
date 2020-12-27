@@ -26,11 +26,12 @@ export default function Question() {
           setIsLoaded(true);
           setItems(result);
         },
-        (error) => {
-          setIsLoaded(true);
-          setError(error);
-        },
-      );
+      )
+      // eslint-disable-next-line no-shadow
+      .catch((error) => {
+        setIsLoaded(true);
+        setError(error);
+      });
   }, []);
 
   if (error) {
