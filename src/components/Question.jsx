@@ -13,6 +13,14 @@ const QuestionText = styled.h3`
   color: #000;
 `;
 
+const QuestionItem = styled.li`
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 20px;
+  background: steelblue;
+`;
+
 export default function Question() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -49,22 +57,18 @@ export default function Question() {
       <QuestionContainer>
         <ul>
           {items.map((item) => (
-            <li key={item.id}>
+            <QuestionItem key={item.id}>
               <QuestionText>
                 Q:
                 {' '}
-                {item.body}
+                {item.content}
+                <br />
                 {item.author}
+                <br />
+                {item.creation_date}
               </QuestionText>
-            </li>
+            </QuestionItem>
           ))}
-        </ul>
-        <ul>
-          <div>Topic</div>
-          <li>#JavaScript</li>
-          <li>#Python</li>
-          <li>#CSS</li>
-          <li>#React</li>
         </ul>
       </QuestionContainer>
     </>
